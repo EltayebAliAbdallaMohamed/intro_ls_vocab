@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>intro_ls_vocabulary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Q Skills for Success - Intro - L&S</h1>
+    <div class="counter" id="counter">0 / 0</div>
+  </header>
+
+  <main class="app">
+    <section class="controls">
+      <div class="nav-buttons">
+        <button id="prevBtn" type="button" aria-label="Previous word">Previous</button>
+        <button id="nextBtn" type="button" aria-label="Next word">Next</button>
+      </div>
+
+      <div class="tts-controls">
+        <button id="ttsBtn" type="button">Convert selected text to speech</button>
+        <p class="hint">Tip: Select text you want to read (e.g., definition/explanation/sentence) and click the button.</p>
+      </div>
+
+      <div class="search">
+        <label for="searchInput">Search words:</label>
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Type a word or words separated by commas, e.g. cat, house"
+        />
+        <button id="searchBtn" type="button">Find</button>
+
+        <label class="toggle">
+          <input id="selectedToggle" type="checkbox" checked />
+          <span>Only show selected group</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="word-view">
+      <div class="word-top">
+        <div class="word-meta">
+          <h2 id="wordTitle">Word</h2>
+          <div class="submeta">
+            <span class="pill" id="unitPill">Unit: —</span>
+            <span class="pill" id="pagePill">Page: —</span>
+            <span class="pill" id="cefrPill">CEFR: —</span>
+            <span class="pill" id="posPill">POS: —</span>
+            <span class="pill" id="opalPill">OPAL: —</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="phonetic">
+        <strong>Phonetic transcription:</strong> <span id="phoneticText">—</span>
+        <button id="ttsPhoneticBtn" type="button" class="small-btn">Speak phonetic</button>
+      </div>
+
+      <div class="translation-block">
+        <audio id="pronunciationAudio" controls style="display:none;"></audio>
+        <button id="playPronunciationBtn" type="button" class="small-btn" style="display:none;">
+          Play pronunciation (mp3)
+        </button>
+        <div class="audio-note" id="audioNote">No pronunciation audio.</div>
+      </div>
+
+      <div class="details-grid">
+        <details id="detailsTranslation" open>
+          <summary>Arabic Translation</summary>
+          <div class="detail-body">
+            <div id="translationText" class="selectable">—</div>
+            <button id="ttsTranslationBtn" type="button" class="small-btn">Speak translation</button>
+          </div>
+        </details>
+
+        <details id="detailsDefinitions" open>
+          <summary>Definitions</summary>
+          <div class="detail-body">
+            <div id="definitionText" class="selectable">—</div>
+            <button id="ttsDefinitionBtn" type="button" class="small-btn">Speak definition</button>
+          </div>
+        </details>
+
+        <details id="detailsImage">
+          <summary>Image</summary>
+          <div class="detail-body">
+            <figure class="image-wrap">
+              <img id="wordImage" alt="Word image" style="display:none;" />
+              <figcaption id="imageCaption" class="muted">No image.</figcaption>
+            </figure>
+          </div>
+        </details>
+      </div>
+
+      <section class="extra-content">
+        <h3>More (audio + question)</h3>
+
+        <div class="audio-group">
+          <div class="audio-item">
+            <div class="label">Example sentence</div>
+            <audio id="exampleAudio" controls style="display:none;"></audio>
+            <button id="playExampleBtn" type="button" class="small-btn" style="display:none;">Play example</button>
+            <div id="exampleNote" class="muted">No example audio.</div>
+          </div>
+
+          <div class="audio-item">
+            <div class="label">Context</div>
+            <audio id="contextAudio" controls style="display:none;"></audio>
+            <button id="playContextBtn" type="button" class="small-btn" style="display:none;">Play context</button>
+            <div id="contextNote" class="muted">No context audio.</div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="label">Comprehension question</div>
+          <div id="questionText" class="selectable">—</div>
+          <button id="ttsQuestionBtn" type="button" class="small-btn">Speak question</button>
+        </div>
+
+        <div class="book-unit">
+          <div class="label">Book</div>
+          <div id="bookText">—</div>
+        </div>
+
+        <details>
+          <summary>Selected word JSON (debug)</summary>
+          <pre id="debugBox" class="debug"></pre>
+        </details>
+      </section>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>Works with assets/audio/*.mp3 and assets/images/*.webp</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

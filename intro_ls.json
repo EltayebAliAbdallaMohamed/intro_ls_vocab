@@ -1,0 +1,113 @@
+[
+  
+{
+"word": "hobbies",
+"Definitions": "activities that you enjoy doing in your free time.",
+"ArabicTranslation": "لدي بعض الهوايات",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 4,
+"PhoneticTranscription": "hobbies",
+"PronunciationAudio": "hobbies.mp3",
+"ExampleSentenceAudio": "Today we want to learn more about hobbies.mp3",
+"ContextAudio": "OK, so we have talked about clubs, and playing sports, and hobbies like photography and video games.mp3",
+"ComprehensionQuestion": "What are some examples of hobbies?",
+"ImageWebp": "hobbies.png",
+"CEFRLevel": "A1",
+"PartOfSpeech": "noun - plural",
+"OPAL": false
+},
+{
+"word": "complete",
+"Definitions": "to finish or accomplish something completely.",
+"ArabicTranslation": "سنتحدث عنهم أكثر بينما نحن نكمل الوحدة الأولى",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 4,
+"PhoneticTranscription": "complete",
+"PronunciationAudio": "complete_context_01.mp3",
+"ExampleSentenceAudio": "We’ll talk about them more as we complete Unit One.mp3",
+"ContextAudio": "What does a complete sentence need to have.mp3",
+"ComprehensionQuestion": "What does complete mean?",
+"ImageWebp": "complete.png",
+"CEFRLevel": "A1",
+"PartOfSpeech": "Verb",
+"OPAL": false
+},
+{
+"word": "club",
+"Definitions": "a group of people — they meet and do things together.",
+"ArabicTranslation": "أنا أنتمي إلى نادي المشي لمسافات طويلة",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 5,
+"PhoneticTranscription": "club",
+"PronunciationAudio": "club.mp3",
+"ExampleSentenceAudio": "I belong to the hiking club.mp3",
+"ContextAudio": "OK, so we have talked about clubs, and playing sports, and hobbies like photography and video games.mp3",
+"ComprehensionQuestion": "What is a club?",
+"ImageWebp": "club.png",
+"CEFRLevel": "A1",
+"PartOfSpeech": "noun - singular",
+"OPAL": true
+},
+{
+"word": "collect",
+"Definitions": "to get and keep many things because you like them",
+"ArabicTranslation": "وأنا أجمع قبعات البيسبول",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 4,
+"PhoneticTranscription": "collect",
+"PronunciationAudio": "collect_verb.mp3",
+"ExampleSentenceAudio": "and I collect baseball hats.mp3",
+"ContextAudio": "collect.mp3",
+"ComprehensionQuestion": "What does collect mean?",
+"ImageWebp": "collect.png",
+"CEFRLevel": "",
+"PartOfSpeech": "",
+"OPAL": false
+},
+{
+"word": "good at",
+"Definitions": "can do something well",
+"ArabicTranslation": "إيفان جيد في كرة القدم",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 4,
+"PhoneticTranscription": "Ivan is good at soccer.",
+"PronunciationAudio": "Ivan is good at soccer.mp3",
+"ExampleSentenceAudio": "I’m also good at math.mp3",
+"ContextAudio": "good_at_context_01.mp3",
+"ComprehensionQuestion": "What does good at mean?",
+"ImageWebp": "good at.png",
+"CEFRLevel": "A1",
+"PartOfSpeech": "",
+"OPAL": false
+},
+{
+"word": "interested in",
+"Definitions": "enjoying an activity or a topic",
+"ArabicTranslation": "بماذا تهتم؟",
+"BookTitle": "Q Skills for Success 0 - L&S",
+"UnitNumber": 1,
+"PageNumber": 4,
+"PhoneticTranscription": "interested in",
+"PronunciationAudio": "I am interested in your school.mp3",
+"ExampleSentenceAudio": "I am interested in languages.mp3",
+"ContextAudio": "What are you interested in.mp3",
+"ComprehensionQuestion": "What does interested in mean?",
+"ImageWebp": "interested in.png",
+"CEFRLevel": "A1",
+"PartOfSpeech": "phrase",
+"OPAL": true  
+}
+
+]
+
+
+
+
+
+
+
